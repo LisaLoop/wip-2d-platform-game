@@ -39,6 +39,8 @@ const normalize = (v) => {
     return Vector(normalizedX, normalizedY);
 };
 
+// polygons are wound clockwise, so normals 
+// are unwound counter-clockwise.
 const cross = (v) => {
     const x = -v.y;
     const y = v.x;
