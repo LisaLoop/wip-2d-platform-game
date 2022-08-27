@@ -8,10 +8,11 @@ document.body.append(canvas);
 
 /*
   GOALS:
-    - [] Vector 2D implementation
+    - [x] Vector 2D implementation
+    - [] Add support for rendering solid polygons
+    - [] Separating Axis Theorem Collision Detection implementation
     - [] Discrete physics steps
     - [] Axis-Aligned Bounding Box implementation
-    - [] Separating Axis Theorem Collision Detection implementation
 */
 
 // My PC: 165fps
